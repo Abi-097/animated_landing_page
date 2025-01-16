@@ -1,12 +1,10 @@
-import SecondLargest from "./SecondLargest";
-import TreeNode from "./TreeNode";
+import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div>
-      {/* <SecondLargest /> */}
-      <TreeNode />
-    </div>
+    <main className="overflow-hidden">
+      <Header />
+    </main>
   );
 };
 
