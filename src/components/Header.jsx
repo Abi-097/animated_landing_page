@@ -11,7 +11,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 z-50 w-full py-10">
       <div className="container flex h-14 items-center max-lg:px-5">
         <a href="" className="lg:hidden flex-1 cursor-pointer z-2">
-          <img src="../assets/xora.svg" width={115} height={55} alt="xora" />
+          <img src="/images/xora.svg" width={115} height={55} alt="xora" />
         </a>
         <div
           className={clsx(
@@ -38,7 +38,7 @@ const Header = () => {
                     )}
                   >
                     <img
-                      src="../assets/xora.svg"
+                      src="/images/xora.svg"
                       width={160}
                       height={55}
                       alt="xora"
@@ -54,14 +54,14 @@ const Header = () => {
             </nav>
             <div className="lg:hidden block absolute top-1/2 left-0 w-[960px] h-[380px] translate-x-[-290px] -translate-y-1/2 rotate-90">
               <img
-                src="../assets/bg-outlines.svg"
+                src="/images/bg-outlines.svg"
                 width={960}
                 height={380}
                 alt="outline"
                 className="relative z-2"
               />
               <img
-                src="../assets/bg-outlines-fill.png"
+                src="/images/bg-outlines-fill.png"
                 width={960}
                 height={380}
                 alt="outline"
@@ -77,7 +77,7 @@ const Header = () => {
           {isOpen ? (
             <IoClose size={25} className="text-s4" />
           ) : (
-            <img src="../assets/magic.svg" />
+            <img src="/images/magic.svg" />
           )}
         </button>
       </div>
